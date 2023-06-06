@@ -33,7 +33,7 @@ const About = () => {
 		 </div>
 		 <div className='about-me-buttons'>
 			<button onClick={handleDownload}> DOWNLOAD MY CV</button>
-			<a href='#'>Scroll down for more</a> 
+			<p>Scroll & Know more</p> 
 			
 		 </div>
 		 </div>
