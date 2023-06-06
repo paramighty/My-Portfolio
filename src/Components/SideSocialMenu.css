@@ -1,0 +1,39 @@
+#mynav {
+  position: absolute;
+  justify-content: space-around;
+  top: 50%;
+  margin-top: 1vh;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+  padding: 0.5rem;
+  border-radius: 5%;
+}
+
+#mynav ul {
+  display: flex;
+  flex-direction: column; /* Display icons in a column */
+  align-items: flex-start; /* Align icons to the left */
+  padding: 0;
+}
+
+#mynav li {
+  list-style-type: none;
+  margin-bottom: 10px; /* Add some spacing between the icons */
+}
+
+#mynav li:last-child {
+  margin-bottom: 0; /* Remove margin-bottom for the last icon */
+}
+
+/* Update CSS for about-me container */
+.about-me {
+  display: flex;
+  text-align: left;
+  align-items: center; /* Align items vertically in the middle */
+  margin-top: 20%;
+}
+.social-icon {
+  font-size: 24px; /* Adjust the size as desired */
+}

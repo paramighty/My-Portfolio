@@ -1,0 +1,40 @@
+.carousel {
+  width: 40vw;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.carousel .inner {
+  display: flex;
+  transition: transform 0.5s;
+}
+
+.carousel .carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel .indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel .indicators li {
+  list-style: none;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  cursor: pointer;
+}
+
+.carousel .indicators li.active {
+  background-color: black;
+}

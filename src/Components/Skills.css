@@ -1,0 +1,75 @@
+.skills-heading h2 {
+  display: block;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+  color: white;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 120vh;
+}
+
+.skills-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-body-personality {
+  flex: 1;
+}
+.skills-body-tech {
+  flex: 1;
+}
+
+.skills-body-personality h3 {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  color: white;
+}
+.skills-body-personality-description ul {
+  list-style-type: none;
+  color: gray;
+  font-size: 1.3rem;
+  max-width: 60rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.skills-body-tech-heading h3 {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  color: white;
+}
+
+.skills-body-tech-buttons button {
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  font-size: 1rem;
+  background: rgba(195, 189, 189, 0.985);
+  border-radius: 5px;
+  font-weight: 600;
+  /* color: #666; */
+}
