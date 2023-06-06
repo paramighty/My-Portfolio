@@ -2,8 +2,7 @@ import React from 'react'
 import './About.css';
 import profilePhoto from '../../Assets/PictureCV.jpeg'
 import myCV from '../../Assets/Resume - Avinno Satta.pdf'
-import { Link } from 'react-router-dom'
-import Skills from '../Skills';
+
 
 
 const About = () => {
@@ -34,7 +33,7 @@ const About = () => {
 		 </div>
 		 <div className='about-me-buttons'>
 			<button onClick={handleDownload}> DOWNLOAD MY CV</button>
-			<a>Scroll down for more</a> 
+			<a href='#'>Scroll down for more</a> 
 			
 		 </div>
 		 </div>

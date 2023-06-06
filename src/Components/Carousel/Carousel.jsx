@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CarouselCard from './CarouselCard';
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./Carousel.css";
 
